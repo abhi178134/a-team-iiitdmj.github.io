@@ -9,18 +9,18 @@ body {
 
 .header {
     background: #38b6ff;
-    font-size: 10rem;
-    color: rgb(65, 209, 149);
+    font-family: 'Dancing Script', cursive;
+    font-size: 9rem;
+    color:wheat;
     text-align: center;
     height: 100vh;
     transition: all 0.7s ease 0s;
     transform: translateY(0%);
+    background-image: url(img/bg-header.png);
+    background-position: center;
 }
 
-.header .img {
-    width: 100%;
-    height: 100vh;
-}
+
 
 .container .row .card {
     margin: 50px;
