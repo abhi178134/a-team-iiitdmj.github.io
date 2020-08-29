@@ -8,19 +8,23 @@ body {
 }
 
 .header {
-    background: #38b6ff;
-    font-family: 'Dancing Script', cursive;
-    font-size: 9rem;
+    background-image: url(img/bg-header.png);
+    background-position: center;
     color:wheat;
     text-align: center;
     height: 100vh;
     transition: all 0.7s ease 0s;
     transform: translateY(0%);
-    background-image: url(img/bg-header.png);
-    background-position: center;
-}
-
-
+ }
+ .heading {
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    font-size: 20vh;
+    height: 80vh;
+ }
+ .header .row {
+     margin: 50px;
+ }
 
 .container .row .card {
     margin: 50px;
