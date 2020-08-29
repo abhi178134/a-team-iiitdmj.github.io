@@ -17,13 +17,15 @@ body {
     transform: translateY(0%);
  }
  .heading {
+    color: whitesmoke;
     font-family: 'Dancing Script', cursive;
     position: relative;
     font-size: 20vh;
     height: 80vh;
  }
  .header .row {
-     margin: 50px;
+     color: wheat;
+     margin: 0 0 25px 0 ;
  }
 
 .container .row .card {
