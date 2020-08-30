@@ -16,7 +16,7 @@ body {
     height: 100vh;
     transition: all 0.7s ease 0s;
     transform: translateY(0%);
-    background-image: url(img/bg-header.png);
+    background-image: url(img/bg_header.jpg);
     background-position: center;
 }
 
