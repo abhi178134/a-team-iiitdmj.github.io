@@ -7,44 +7,41 @@ body {
     color: #38b6ff;
 }
 
+.s1:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+} 
 
+.s2:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+} 
 
-.bg-image {
-    /* The image used */
+.s3:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+} 
+
+.header {
     background-image: url(img/bg-header.png);
-    box-sizing: border-box;
-    /* Add the blur effect */
-    filter: blur(2px);
-    -webkit-filter: blur(4px);
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  /* Position text in the middle of the page/image */
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-family: 'Dancing Script', cursive;
-    font-size: 8rem;
-    font-weight: bold;
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
+    color:wheat;
     text-align: center;
-  }
-
+    height: 100vh;
+    transition: all 0.7s ease 0s;
+    transform: translateY(0%);
+ }
+ .heading {
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    font-size: 20vh;
+    height: 80vh;
+ }
+ .header .row {
+     color: wheat;
+     margin: 0 0 25px 0 ;
+ }
 
 .container .row .card {
     margin: 50px;
