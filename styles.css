@@ -7,6 +7,21 @@ body {
     color: #38b6ff;
 }
 
+.s1:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+} 
+
+.s2:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+} 
+
+.s3:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+} 
+
 .header {
     background-image: url(img/bg-header.png);
     background-position: center;
